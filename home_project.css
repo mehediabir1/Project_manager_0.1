@@ -1,8 +1,7 @@
 h1 {
-  color: #b192e7;
+  color: white;
   font-family: 'Lexend Deca', sans-serif;
-  text-align: center;
-  font-weight: 1200;
+  text-align: center
 }
 form{
   font-family: 'Lexend Deca', sans-serif;
@@ -19,7 +18,7 @@ input{
   margin-left: auto;
   margin-right: auto;
   display:flex;
-  background-color: #e3e3ed;
+  background-color: #238639;
   justify-content:center;
   margin-top: 25px;
   width: 200px;
@@ -27,12 +26,27 @@ input{
   border: 4px;
 }
 .login_but input  {
-  color: #331C11;
+  color: white;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: bold;
+  font-weight: ;
 }
 input::placeholder {
-    font-weight: bold;
-    opacity: 0.5;
-    color: #7FA49C;
+	font-weight: bold;
+	opacity: 0.5;
+	color: #7FA49C;
+}
+body {
+	background-color: #010409;
+}
+.bg{
+	background-color: #161c23;
+	padding: 16px;
+	width: 300px;
+	height: 200px;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+
+	justify-content:center;
 }
