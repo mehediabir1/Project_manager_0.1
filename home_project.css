@@ -1,0 +1,38 @@
+h1 {
+  color: #b192e7;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  font-weight: 1200;
+}
+form{
+  font-family: 'Lexend Deca', sans-serif;
+  color: #265857;
+  text-align: center;
+}
+input{
+  width: 180px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.login_but .login_but  {
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  background-color: #e3e3ed;
+  justify-content:center;
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  border: 4px;
+}
+.login_but input  {
+  color: #331C11;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #7FA49C;
+}
